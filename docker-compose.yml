@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  latex:
+    build: 
+      context: ./.devcontainer
+      args: 
+        USER_UID: ${DEV_UID:-1000}
+        USER_GID: ${DEV_GID:-1000}
+        TEX_DIR: ${TEX_DIR:-/usr/local/texlive/year}
+    tty: true
+    volumes:
+      - .:/latex
