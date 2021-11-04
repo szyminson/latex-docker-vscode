@@ -25,10 +25,10 @@ RUN cpan -i App::cpanminus && \
     cpanm File::HomeDir && \
     cpanm Unicode::GCString
 
-RUN echo 'export PATH=$TEX_PATH:$PATH/bin/x86_64-linux' >> /root/.bashrc && \
+RUN echo 'export PATH=$TEX_PATH/bin/x86_64-linux:$PATH' >> /root/.bashrc && \
     $TEX_PATH/bin/x86_64-linux/tlmgr install latexmk
 
-ARG USERNAME=dev
+ARG USERNAME=latex
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
