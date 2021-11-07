@@ -7,6 +7,7 @@ services:
         USER_UID: ${USER_UID:-1000}
         USER_GID: ${USER_GID:-1000}
         TEX_DIR: ${TEX_DIR:-/usr/local/texlive/year}
+        TEX_PACKAGES: ${TEX_PACKAGES:-}
     tty: true
     volumes:
       - .:/latex

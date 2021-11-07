@@ -1,10 +1,10 @@
 {
-	"name": "Existing Docker Compose (Extend)",
+	"name": "LaTeX",
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	],
 	"service": "latex",
-	"workspaceFolder": "/latex",
+	"workspaceFolder": "/latex/project",
 	"settings": {},
 	"extensions": [
 		"james-yu.latex-workshop",
