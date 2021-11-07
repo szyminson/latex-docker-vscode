@@ -1,5 +1,5 @@
 # latex-docker-vscode
-A boilerplate for working locally on LaTeX projects with zero effort.
+A boilerplate for working locally on LaTeX projects with zero configuration effort.
 ## Prerequisites
 * VSCode with `ms-vscode-remote.remote-containers` extension.
 * Docker
