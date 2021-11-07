@@ -27,7 +27,7 @@ RUN apt-get install git unzip vim sudo build-essential -y && \
     cpanm Unicode::GCString
 
 RUN echo 'export PATH=$TEX_BIN:$PATH' >> /root/.bashrc && \
-    $TEX_BIN/tlmgr install latexmk
+    $TEX_BIN/tlmgr install latexmk latexindent
 
 ARG USERNAME=latex
 ARG USER_UID=1000

@@ -5,7 +5,9 @@
 	],
 	"service": "latex",
 	"workspaceFolder": "/latex/project",
-	"settings": {},
+	"settings": {
+		"latex-workshop.synctex.afterBuild.enabled": true
+	},
 	"extensions": [
 		"james-yu.latex-workshop",
 	],
