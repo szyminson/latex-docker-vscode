@@ -14,7 +14,7 @@ A boilerplate for working locally on LaTeX projects with zero effort.
 7. Enjoy!
 
 ## Package manager
-Some projects may require some additional CTAN packages. You can install them by using `tlmgr` command in the integrated terminal or by creating a .env file based on .env.example and setting `TEX_PACKAGES` variable. In the second case they will be installed during the image building process so `Ctrl + Shift + P` -> Rebuild Container will be necessary.
+Some projects may require additional CTAN packages. You can install them by using `tlmgr` command in the integrated terminal or by creating a .env file based on .env.example and setting `TEX_PACKAGES` variable. In the second case they will be installed during the image building process so `Ctrl + Shift + P` -> Rebuild Container will be necessary.
 
 ## Template loader
 ```
